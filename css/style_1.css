@@ -1,18 +1,34 @@
-*{
-  padding: 0;
-  margin: 0;
-  border: 0;
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
-*,*::before,*::after{  /*расчет размера бокса */
-  -moz-box-sizing: border-box;
+*,
+*::before,
+*::after {
+	/*расчет размера бокса */
+	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-:focus,:active{outline: none;} /*Убрали линии обводки*/
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;} /*Делаем из них блоки*/
-html, body {  /* уравнивание поведения шрифтов и и элементов и размеров в разных браузерах*/
-  height: 100%;
+:focus,
+:active {
+	outline: none;
+} /*Убрали линии обводки*/
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+} /*Делаем из них блоки*/
+html,
+body {
+	/* уравнивание поведения шрифтов и и элементов и размеров в разных браузерах*/
+	height: 100%;
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
@@ -20,272 +36,292 @@ html, body {  /* уравнивание поведения шрифтов и и 
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-  }
-  input,button,textarea{font-family:inherit;} /* Наследование семейства шрифта*/
-  input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+} /* Наследование семейства шрифта*/
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
 /*Подготовка стилей к работе (см выше), обнуление дефолтных настроек в браузерах*/
-body{
-  background-color: #a8696998;
-  width: 1440px;
-height: 1700px;
-padding: 123px 0 0 0;
-font-family: Arial,sans-serif;
-letter-spacing: 0px;
+body {
+	background-color: #a8696998;
+	width: 1440px;
+	height: 1700px;
+	padding: 123px 0 0 0;
+	font-family: Arial, sans-serif;
+	letter-spacing: 0px;
 }
-.list{
-    width: 850px;
-height: 363px;
-  }
-  .list1 p{
-    margin-left: 291px;
-    color: #000000;
-font-size: 14px;
-font-weight: 400;
-line-height: 40px;
-text-transform: uppercase;
-/* Text style for "Стилизируй" */
-letter-spacing: 2.8px;
-
-  }
-.group1{
-margin-left: 291px;
-padding-bottom: 81px;
+.list {
+	width: 850px;
+	height: 363px;
 }
-.group1 li{
-  background: 0 10px no-repeat url("../img/check_icon.png");
-  padding-left: 30px;
-
+.list1 p {
+	margin-left: 291px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+	/* Text style for "Стилизируй" */
+	letter-spacing: 2.8px;
+}
+.group1 {
+	margin-left: 291px;
+	padding-bottom: 81px;
+}
+.group1 li {
+	background: 0 10px no-repeat url("../img/check_icon.png");
+	padding-left: 30px;
 }
 
-.group1 li img{
-  margin: 10px 10px 0 0;
+.group1 li img {
+	margin: 10px 10px 0 0;
 }
-.group1 li:nth-child(1){
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-text-decoration: line-through;
+.group1 li:nth-child(1) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-decoration: line-through;
 }
-.group1 li:nth-child(2){
-  color: #273d46;
-font-family: Arial,sans-serif;
-font-size: 20px;
-font-weight: bold;
-line-height: 36px;
+.group1 li:nth-child(2) {
+	color: #273d46;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 36px;
 }
-.group1 li:nth-child(3){
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-font-style: italic;
+.group1 li:nth-child(3) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	font-style: italic;
 }
-.group1 li:nth-child(4){
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-text-transform: uppercase;
+.group1 li:nth-child(4) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-transform: uppercase;
 }
-.group2{
-  padding-left: 67px;
-  padding-bottom: 81px;
+.group2 {
+	padding-left: 67px;
+	padding-bottom: 81px;
 }
-.group2 li {margin-left: 234px;
+.group2 li {
+	margin-left: 234px;
 }
-.group2 li::before{
-  content: '';
-  width: 25px;
-height: 19px;
+.group2 li::before {
+	content: "";
+	width: 25px;
+	height: 19px;
 
-  background: url("../img/check_icon.png");
-  display: inline-block;
-  position: relative;
-  right: 7px;
-  top: 3px;
+	background: url("../img/check_icon.png");
+	display: inline-block;
+	position: relative;
+	right: 7px;
+	top: 3px;
 }
-.group2 li:nth-child(2):hover:before{
-  content: '';
-  width: 35px;
-height: 19px;
+.group2 li:nth-child(2):hover:before {
+	content: "";
+	width: 35px;
+	height: 19px;
 
-  background: no-repeat url("../img/check_icon_2.png");
-  display: inline-block;
+	background: no-repeat url("../img/check_icon_2.png");
+	display: inline-block;
 }
-.group2 li img{
-  margin: 10px 10px 0 0;
+.group2 li img {
+	margin: 10px 10px 0 0;
 }
-.group2 li:nth-child(1){
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-text-decoration: line-through;
+.group2 li:nth-child(1) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-decoration: line-through;
 }
-.group2 li:nth-child(1):hover{
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-text-decoration: none;
+.group2 li:nth-child(1):hover {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-decoration: none;
 }
-.group2 li:nth-child(2){
-  color: #273d46;
-font-size: 20px;
-font-weight: bold;
-line-height: 36px;
-
-
+.group2 li:nth-child(2) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 36px;
 }
-.group2 li:nth-child(2):hover{
-  color: #d55a5a;
-font-family: "Arial MT";
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-
+.group2 li:nth-child(2):hover {
+	color: #d55a5a;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
 }
 
-.group2 li:nth-child(3){
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-font-style: italic;
+.group2 li:nth-child(3) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	font-style: italic;
 }
-.group2 li:nth-child(3):hover{
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-font-style: normal;
+.group2 li:nth-child(3):hover {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	font-style: normal;
 }
-.group2 li:nth-child(4){
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-text-transform: uppercase;
+.group2 li:nth-child(4) {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-transform: uppercase;
 }
-.group2 li:nth-child(4):hover{
-  color: #273d46;
-font-size: 20px;
-font-weight: 400;
-line-height: 36px;
-text-transform: none;
+.group2 li:nth-child(4):hover {
+	color: #273d46;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-transform: none;
 }
-.button{
-margin: 113px 0 0 315px;
+.button {
+	margin: 113px 0 0 315px;
+}
+.button button {
+	border-radius: 30px;
+	width: 197px;
+	height: 44px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+	/* Text style for "Full Story" */
+	letter-spacing: 2.8px;
+}
+.button button::after {
+	content: "";
+	width: 21px;
+	height: 14px;
+	background: no-repeat url("../img/Shape_2.png");
 
-
+	display: inline-block;
+	position: relative;
+	left: 5px;
+	top: 2px;
 }
-.button button{
-  border-radius: 30px;
-  width: 199px;
-  height: 44px;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 40px;
-  text-transform: uppercase;
-  /* Text style for "Full Story" */
-  letter-spacing: 2.8px;
+.button button:nth-child(1) {
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background-color: #80b7b3;
 }
-.button button::after{
-  content: '';
-  width: 21px;
-height: 14px;
-background: no-repeat url("../img/Shape_2.png");
-
-display: inline-block;
-position: relative;
-left: 5px;
-top: 2px;
-
+.button button:nth-child(2) {
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background-color: #80b7b3;
+	margin-left: 97px;
 }
-.button button:nth-child(1){
-  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
-  background-color: #80b7b3;
+.button button:nth-child(2):hover {
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background-color: #3a5856;
+	margin-left: 97px;
 }
-.button button:nth-child(2){
-  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
-  background-color: #80b7b3;
-  margin-left: 97px;
+.button button:nth-child(3) {
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background-color: #80b7b3;
+	margin-left: 97px;
 }
-.button button:nth-child(2):hover{
-  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
-  background-color: #3a5856;
-  margin-left: 97px;
-}
-.button button:nth-child(3){
-  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
-  background-color: #80b7b3;
-  margin-left: 97px;
-}
-.button button:nth-child(3):active{
-  background-color: #818181;
-  margin-left: 97px;
+.button button:nth-child(3):active {
+	background-color: #818181;
+	margin-left: 97px;
 }
 
-.input{
-  margin-left: 292px;
+.input {
+	margin-left: 292px;
 }
-.input input:nth-child(1){
-  width: 292px;
-height: 50px;
-border: 1px solid #b0b0b0;
-font-size: 20px;
+.input input:nth-child(1) {
+	width: 292px;
+	height: 50px;
+	border: 1px solid #b0b0b0;
+	font-size: 20px;
 }
-.input input:nth-child(2){
-  width: 292px;
-height: 50px;
-border: 1px solid #b0b0b0;
-margin-left: 80px;
-font-size: 20px;
+.input input:nth-child(2) {
+	width: 292px;
+	height: 50px;
+	border: 1px solid #b0b0b0;
+	margin-left: 80px;
+	font-size: 20px;
 }
 
-.input input:nth-child(2):focus{
-  width: 292px;
-height: 50px;
-box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
-border: 1px solid #7fbed5;
-margin-left: 80px;
-font-size: 20px;
+.input input:nth-child(2):focus {
+	width: 292px;
+	height: 50px;
+	box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+	border: 1px solid #7fbed5;
+	margin-left: 80px;
+	font-size: 20px;
 }
-.text{
-  color: #000000;
-font-size: 14px;
-font-weight: 400;
-line-height: 40px;
-text-transform: uppercase;
-/* Text style for "Фокус" */
-letter-spacing: 2.8px;
-text-align: center;
-margin: 95px 0 0 0;
+.text {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+	/* Text style for "Фокус" */
+	letter-spacing: 2.8px;
+	text-align: center;
+	margin: 95px 0 0 0;
 }
-.text2{
-  margin: 100px 0 0 295px;
-  width: 761px;
+.text2 {
+	margin: 100px 0 0 295px;
+	width: 761px;
 }
-.text2 p{
-  font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-padding:  0 0 40px 0;
-
+.text2 p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	padding: 0 0 40px 0;
 }
-.text2 p:nth-child(1):first-line{
-  color: red;
+.text2 p:nth-child(1):first-line {
+	color: red;
 }
-.text2 p:nth-child(2)::first-letter{
-  color: red;
-  font-size: 25px;
+.text2 p:nth-child(2)::first-letter {
+	color: red;
+	font-size: 25px;
 }
